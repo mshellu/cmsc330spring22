@@ -1,0 +1,55 @@
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:1:public_mutop_pi_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:1:public_mutop_pi_def exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:1:public_mutop_pi_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_mutop_pi_def in file "test/public/public.ml", line 14, characters 16-61
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:1:public_mutop_pi_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:5:public_expr_double_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:5:public_expr_double_fun exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:5:public_expr_double_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_expr_double_fun in file "test/public/public.ml", line 38, characters 16-67
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:5:public_expr_double_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:8:public_expr_minus_one.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:8:public_expr_minus_one exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:8:public_expr_minus_one.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_expr_minus_one in file "test/public/public.ml", line 58, characters 16-60
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:8:public_expr_minus_one.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:10:public_expr_sub1.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:10:public_expr_sub1 exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:10:public_expr_sub1.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_expr_sub1 in file "test/public/public.ml", line 83, characters 16-77
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:10:public_expr_sub1.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:14:public_expr_simple_div.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:14:public_expr_simple_div exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:14:public_expr_simple_div.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_expr_simple_div in file "test/public/public.ml", line 108, characters 16-50
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:14:public_expr_simple_div.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:17:public_expr_simple_sum.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:17:public_expr_simple_sum exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Failure("unimplemented") in test public:17:public_expr_simple_sum.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Public.public_expr_simple_sum in file "test/public/public.ml", line 123, characters 16-49
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:17:public_expr_simple_sum.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test public:28:public_err_def_not_top_level.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Test public:28:public_err_def_not_top_level has failed.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: End test public:28:public_err_def_not_top_level.

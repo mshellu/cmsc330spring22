@@ -1,0 +1,72 @@
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:0:public_nothing.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:0:public_nothing exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:0:public_nothing.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_nothing in file "test/public/public.ml", line 9, characters 16-47
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:0:public_nothing.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:6:public_expr_let_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:6:public_expr_let_if exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:6:public_expr_let_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_let_if in file "test/public/public.ml", line 47, characters 16-96
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:6:public_expr_let_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:7:public_expr_let_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:7:public_expr_let_fun exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:7:public_expr_let_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_let_fun in file "test/public/public.ml", line 53, characters 16-77
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:7:public_expr_let_fun.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:11:public_rec_function_factorial.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:11:public_rec_function_factorial exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:11:public_rec_function_factorial.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_rec_function_factorial in file "test/public/public.ml", line 92, characters 16-118
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:11:public_rec_function_factorial.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:13:public_expr_simple_concat.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:13:public_expr_simple_concat exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:13:public_expr_simple_concat.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_simple_concat in file "test/public/public.ml", line 103, characters 16-67
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:13:public_expr_simple_concat.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:18:public_expr_single_and.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:18:public_expr_single_and exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:18:public_expr_single_and.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_single_and in file "test/public/public.ml", line 128, characters 16-56
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:18:public_expr_single_and.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:21:public_expr_single_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:21:public_expr_single_if exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:21:public_expr_single_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_single_if in file "test/public/public.ml", line 144, characters 16-73
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:21:public_expr_single_if.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:24:public_expr_single_not.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:24:public_expr_single_not exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:24:public_expr_single_not.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_single_not in file "test/public/public.ml", line 159, characters 16-52
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:24:public_expr_single_not.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test public:27:public_expr_single_string.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Test public:27:public_expr_single_string exited with an error.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Failure("unimplemented") in test public:27:public_expr_single_string.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Public.public_expr_single_string in file "test/public/public.ml", line 174, characters 16-60
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: End test public:27:public_expr_single_string.

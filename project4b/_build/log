@@ -1,0 +1,115 @@
+# dune utop
+# OCAMLPARAM: unset
+# Workspace root: /home/mlu/cmsc330spring22/project4b
+$ /usr/bin/nproc > /tmp/duneac0f07.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /home/mlu/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune55a5e9.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/mlu/.opam/4.12.0/lib/toplevel"
+#  ; ocaml_bin = External "/home/mlu/.opam/4.12.0/bin"
+#  ; ocaml = Ok External "/home/mlu/.opam/4.12.0/bin/ocaml"
+#  ; ocamlc = External "/home/mlu/.opam/4.12.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/home/mlu/.opam/4.12.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/home/mlu/.opam/4.12.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/home/mlu/.opam/4.12.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/mlu/.opam/4.12.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/mlu/.opam/4.12.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/mlu/cmsc330spring22/project4b"
+#        ; "INSIDE_DUNE" : "/home/mlu/cmsc330spring22/project4b/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/mlu/cmsc330spring22/project4b/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/mlu/cmsc330spring22/project4b/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/mlu/cmsc330spring22/project4b/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/mlu/.opam/4.12.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/home/mlu/.opam/4.12.0/lib/ocaml"
+#      ; standard_library = "/home/mlu/.opam/4.12.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /home/mlu/.opam/4.12.0/bin/ocamlc.opt -w -40 -g -bin-annot -I test/.testUtils.objs/byte -I /home/mlu/.opam/4.12.0/lib/bytes -I /home/mlu/.opam/4.12.0/lib/oUnit -I /home/mlu/.opam/4.12.0/lib/ounit2 -I /home/mlu/.opam/4.12.0/lib/ounit2/advanced -I /home/mlu/.opam/4.12.0/lib/stdlib-shims -I src/.p4b.objs/byte -no-alias-deps -o test/.testUtils.objs/byte/testUtils.cmo -c -impl test/testUtils.ml)
+$ (cd _build/default && /home/mlu/.opam/4.12.0/bin/ocamlc.opt -w -40 -g -a -o test/testUtils.cma test/.testUtils.objs/byte/testUtils.cmo)
+$ (cd _build/default && /home/mlu/.opam/4.12.0/bin/ocamlc.opt -w -40 -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /home/mlu/.opam/4.12.0/lib/bytes -I /home/mlu/.opam/4.12.0/lib/camomile -I /home/mlu/.opam/4.12.0/lib/camomile/default_config -I /home/mlu/.opam/4.12.0/lib/camomile/dyn -I /home/mlu/.opam/4.12.0/lib/camomile/lib_default -I /home/mlu/.opam/4.12.0/lib/camomile/library -I /home/mlu/.opam/4.12.0/lib/charInfo_width -I /home/mlu/.opam/4.12.0/lib/findlib -I /home/mlu/.opam/4.12.0/lib/lambda-term -I /home/mlu/.opam/4.12.0/lib/lwt -I /home/mlu/.opam/4.12.0/lib/lwt/unix -I /home/mlu/.opam/4.12.0/lib/lwt_log -I /home/mlu/.opam/4.12.0/lib/lwt_log/core -I /home/mlu/.opam/4.12.0/lib/lwt_react -I /home/mlu/.opam/4.12.0/lib/mew -I /home/mlu/.opam/4.12.0/lib/mew_vi -I /home/mlu/.opam/4.12.0/lib/mmap -I /home/mlu/.opam/4.12.0/lib/oUnit -I /home/mlu/.opam/4.12.0/lib/ocaml/compiler-libs -I /home/mlu/.opam/4.12.0/lib/ocaml/threads -I /home/mlu/.opam/4.12.0/lib/ocplib-endian -I /home/mlu/.opam/4.12.0/lib/ocplib-endian/bigstring -I /home/mlu/.opam/4.12.0/lib/ounit2 -I /home/mlu/.opam/4.12.0/lib/ounit2/advanced -I /home/mlu/.opam/4.12.0/lib/react -I /home/mlu/.opam/4.12.0/lib/result -I /home/mlu/.opam/4.12.0/lib/seq -I /home/mlu/.opam/4.12.0/lib/stdlib-shims -I /home/mlu/.opam/4.12.0/lib/trie -I /home/mlu/.opam/4.12.0/lib/utop -I /home/mlu/.opam/4.12.0/lib/zed -I src/.p4b.objs/byte -I test/.testUtils.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /home/mlu/.opam/4.12.0/bin/ocamlc.opt -w -40 -w -24 -g -o .utop/utop.exe -output-complete-exe /home/mlu/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlcommon.cma /home/mlu/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/mlu/.opam/4.12.0/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/mlu/.opam/4.12.0/lib/findlib/findlib.cma /home/mlu/.opam/4.12.0/lib/findlib/findlib_top.cma /home/mlu/.opam/4.12.0/lib/result/result.cma /home/mlu/.opam/4.12.0/lib/lwt/lwt.cma /home/mlu/.opam/4.12.0/lib/ocaml/unix.cma -I /home/mlu/.opam/4.12.0/lib/ocaml /home/mlu/.opam/4.12.0/lib/ocaml/bigarray.cma -I /home/mlu/.opam/4.12.0/lib/ocaml /home/mlu/.opam/4.12.0/lib/mmap/mmap.cma /home/mlu/.opam/4.12.0/lib/ocplib-endian/ocplib_endian.cma /home/mlu/.opam/4.12.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/mlu/.opam/4.12.0/lib/ocaml/threads/threads.cma -I /home/mlu/.opam/4.12.0/lib/ocaml /home/mlu/.opam/4.12.0/lib/lwt/unix/lwt_unix.cma -I /home/mlu/.opam/4.12.0/lib/lwt/unix /home/mlu/.opam/4.12.0/lib/react/react.cma /home/mlu/.opam/4.12.0/lib/lwt_react/lwt_react.cma /home/mlu/.opam/4.12.0/lib/camomile/default_config/camomileDefaultConfig.cma /home/mlu/.opam/4.12.0/lib/camomile/library/camomileLibrary.cma /home/mlu/.opam/4.12.0/lib/camomile/lib_default/camomileLibraryDefault.cma /home/mlu/.opam/4.12.0/lib/camomile/dyn/camomileLibraryDyn.cma /home/mlu/.opam/4.12.0/lib/camomile/camomile_yuge.cma /home/mlu/.opam/4.12.0/lib/charInfo_width/charInfo_width.cma /home/mlu/.opam/4.12.0/lib/zed/zed.cma /home/mlu/.opam/4.12.0/lib/lwt_log/core/lwt_log_core.cma /home/mlu/.opam/4.12.0/lib/lwt_log/lwt_log.cma /home/mlu/.opam/4.12.0/lib/trie/trie.cma /home/mlu/.opam/4.12.0/lib/mew/mew.cma /home/mlu/.opam/4.12.0/lib/mew_vi/mew_vi.cma /home/mlu/.opam/4.12.0/lib/lambda-term/lambda_term.cma -I /home/mlu/.opam/4.12.0/lib/lambda-term /home/mlu/.opam/4.12.0/lib/utop/uTop.cma /home/mlu/.opam/4.12.0/lib/ocaml/str.cma -I /home/mlu/.opam/4.12.0/lib/ocaml src/p4b.cma /home/mlu/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cma /home/mlu/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cma /home/mlu/.opam/4.12.0/lib/ounit2/oUnit.cma test/testUtils.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

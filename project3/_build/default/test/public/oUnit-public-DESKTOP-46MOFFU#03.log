@@ -1,0 +1,9 @@
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Start test public:2:nfa_move.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Test public:2:nfa_move is successful.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: End test public:2:nfa_move.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Start test public:4:re_to_nfa.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Test public:4:re_to_nfa is successful.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: End test public:4:re_to_nfa.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Start test public:9:regex_to_nfa.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: Test public:9:regex_to_nfa is successful.
+2022-03-26T03:35:47+00:00 DESKTOP-46MOFFU#03 I: End test public:9:regex_to_nfa.

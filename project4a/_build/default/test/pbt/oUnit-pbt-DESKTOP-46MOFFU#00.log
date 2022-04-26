@@ -1,0 +1,217 @@
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Runner: processes
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Chooser: simple
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration suite_name = "pbt"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration cache_filename = "/home/mlu/cmsc330spring22/project4a/_build/default/test/pbt/oUnit-$(suite_name).cache"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration run_gc_full_major = "true"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration seed = "-1"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration display = "true"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration results_style_1_X = "false"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration testdata_dir = "none"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration health_check_interval = "1."
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration verbose = "false"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration chooser = "simple"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration output_html_dir = "none"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration processes_kill_period = "5."
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration runner = "processes"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration shards = "4"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration processes_grace_period = "5."
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration qcheck_verbose = "true"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration log_encoding = "utf-8"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration output_junit_file = "none"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration ci = "false"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration qcheck_long = "false"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Configuration output_file = "/home/mlu/cmsc330spring22/project4a/_build/default/test/pbt/oUnit-$(suite_name)-$(shard_id).log"
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Using 4 workers maximum.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Starting worker number DESKTOP-46MOFFU#01.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#01 started.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Starting worker number DESKTOP-46MOFFU#02.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#02 started.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Starting worker number DESKTOP-46MOFFU#03.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#03 started.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Starting worker number DESKTOP-46MOFFU#04.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#04 started.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#01 I: Start test pbt:0:test_simple_def.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#02 I: Start test pbt:1:test_simple_let.
+2022-04-09T21:42:18+00:00 DESKTOP-46MOFFU#03 I: Start test pbt:2:test_sum_small_ints.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 I: law test_simple_def: 0 relevant cases (1 total)
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 I: law test_simple_let: 0 relevant cases (1 total)
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 I: law test_sum_small_ints: 0 relevant cases (1 total)
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-52
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-43
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Test pbt:0:test_simple_def exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E:  in test pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Test pbt:1:test_simple_let exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-52
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E:  in test pbt:1:test_simple_let.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Test pbt:2:test_sum_small_ints exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-43
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E:  in test pbt:2:test_sum_small_ints.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#01 I: End test pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#02 I: End test pbt:1:test_simple_let.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#03 I: End test pbt:2:test_sum_small_ints.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 I: Start test pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 I: law test_operator_precedence: 0 relevant cases (1 total)
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 I: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-49
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Test pbt:3:test_operator_precedence exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-49
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E:  in test pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#04 I: End test pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: 0 tests running: .
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#01 has ended.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#03 has ended.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#04 has ended.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Worker DESKTOP-46MOFFU#02 died unexpectedly.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Used 4 worker during test execution.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Run 1 tests with shard DESKTOP-46MOFFU#01.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Run 1 tests with shard DESKTOP-46MOFFU#04.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Run 1 tests with shard DESKTOP-46MOFFU#03.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Run 1 tests with shard DESKTOP-46MOFFU#02.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Check health of shard DESKTOP-46MOFFU#01, 5 times.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Check health of shard DESKTOP-46MOFFU#04, 1 times.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Check health of shard DESKTOP-46MOFFU#03, 5 times.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Check health of shard DESKTOP-46MOFFU#02, 6 times.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: ==============
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Summary:
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Test pbt:3:test_operator_precedence exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-49
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E:  in test pbt:3:test_operator_precedence.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Test pbt:2:test_sum_small_ints exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-43
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E:  in test pbt:2:test_sum_small_ints.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Test pbt:1:test_simple_let exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-52
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E:  in test pbt:1:test_simple_let.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Test pbt:0:test_simple_def exited with an error.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E:  in test pbt:0:test_simple_def.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 E: 
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Ran: 4 tests in: 0.34 seconds.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Cases: 4.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Tried: 4.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Errors: 4.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Failures: 0.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Skip: 0.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Todo: 0.
+2022-04-09T21:42:19+00:00 DESKTOP-46MOFFU#00 I: Timeout: 0.
